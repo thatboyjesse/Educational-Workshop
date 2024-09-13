@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style/home.css">
+</head>
+<body class="relative">
+    <div class="nav">
+        <div class="bb">
+            <nav>
+                <div>
+                    <a href="home.html">LOGO</a>
+                </div>
+                <div class="nav_text">
+                    <span><a href="">Workshops</a></span>
+                    <span>About Us</span>
+                    <span>Our Locations</span>
+                    <span><a href="index.html">Log Out</a></span>
+                </div>
+            </nav>        
+        </div>
+        <section>
+            <div>
+                <div class="fix1">
+                    <span id="greeting"></span>
+                </div>
+                <div class="form">
+                    <form action="" id="form">
+                        <div>
+                            <input type="date" id="dob">
+                        </div>
+                        <div class="btn">
+                            <span class="fix" id="dob-err">Date of Birth</span>
+                        </div>
+                        <div>
+                            <select name="time" id="time">
+                                <option value="">Select the Time of Workshop</option>
+                                <option value="100">06:10 - 10:00</option>
+                                <option value="150">10:10 - 14:00</option>
+                                <option value="200">14:10 - 18:00</option>
+                            </select>
+                        </div>
+                        <span id="time-err"></span>
+                        <div>
+                            <input type="date" id="date">
+                        </div>
+                        <div class="btn">
+                            <span class="fix" id="date-err">Date of Workshop</span>
+                        </div>
+                        <div>
+                            <select name="type" id="type">
+                                <option value="">Select the Type of WorkShop</option>
+                                <option value="99">Art</option>
+                                <option value="149">Music</option>
+                                <option value="299">Coding</option>
+                            </select>
+                        </div>
+                        <span id="type-err"></span>
+                        <div>
+                            <select name="participants" id="participants">
+                                <option value="">Number of participants</option>
+                                <option value="101">10 - 30</option>
+                                <option value="151">31 - 60</option>
+                                <option value="300">60 - 90</option>
+                            </select>
+                        </div>
+                        <span id="participants-err"></span>
+                        <div class="btn">
+                            <button type="submit">Select Slot</button>
+                        </div>
+                        <span id="error"></span>
+                    </form>
+                </div>
+            </div>
+            <div class="grid-item none" id="right">
+                <h1 id="Workshops">Congratulation View Your Payment Options
+                    <br>
+                    <a href="" class="link">view workshops</a>
+                </h1>
+            </div>
+        </section>
+    </div>
+    <div class="absolute overlay " id="hide">
+        <div class="details">
+            <div class="justify">
+                <span id="title" class="title">Coding WorkShop</span>
+                <a id="cancel" class="title" href="">X</a>
+            </div>
+            <div class="modalGrid">
+                <div id="user_details" class="user_details ">
+                    <span id="name"></span>
+                    <span id="contact"></span>
+                    <span id="email"></span>
+                    <span id="age"></span>
+                    <span id="legality">  </span>
+                </div>
+                <div class="user_details">
+                    <div class="cost_details">
+                        <span id="timeopt"></span>
+                        <span id="timePrice"></span>
+                    </div>
+                    <div class="cost_details">
+                        <span id="typeopt"></span>
+                        <span id="typePrice" ></span>
+                    </div>
+                    <div class="cost_details">
+                        <span id="studopt"></span>
+                        <span id="studPrice"></span>
+                    </div>
+                    <div class="cost_details">
+                        <span>availability</span>
+                        <span id="AvailPrice"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="modalEnd">
+                <button id="confirm"></button>
+                <span id="bill"></span>
+            </div>
+        </div>
+    </div>
+    <script src="/JS/home.js"></script>
+</body>
+</html>
+<!-- login
+: 
+"{\"fullName\":{\"firstName\":\"Ehidiamhen\",\"lastName\":\"Jesse\"},\"phone\":\"08127760061\",\"email\":\"jesseehidiamhen@gmail.com\",\"dateOfBirth\":\"2024-09-19\",\"age\":-0.0223811910514967,\"legality\":\"minor\",\"bill\":799,\"availability\":true}"
+length
+: 
+1
+[[Prototype]]
+: 
+Storage -->
+

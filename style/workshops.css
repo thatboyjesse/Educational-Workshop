@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    padding: 0;
+    box-sizing: border-box;
+}
+.reciept{
+    background: url(/img/pexels-n-voitkevich-5554668.jpg);
+    background-position: center;
+    background-size: 100%;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.overlay{
+    display: flex !important;
+}
+.r_page{
+    height: 90vh;
+    width: 30%;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.veri{
+    color: #37695d;
+    font-size: 150px;
+}
+.congrats{
+    font-size: 1.6rem;
+    font-weight: 500;
+    text-align: center;
+}
+.btn{
+    background: #37695d;
+    padding: 10px 30px;
+    color: white;
+    margin: 10px;
+    border-radius: 5px;
+}
